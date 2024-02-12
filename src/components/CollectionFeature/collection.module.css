@@ -1,0 +1,37 @@
+.collectionBg{
+    background: rgba(217, 224, 236, 0.2);
+}
+.collectionFeature{
+    @apply lg:px-[40px] 2xl:max-w-[1400px] 2xl:m-auto 2xl:px-0 py-[70px] xl:px-[120px] gap-[70px]; 
+    
+}
+.collectionFeature h3{
+    @apply text-[1.75rem] mb-[50px] font-custom font-normal text-black leading-tight;
+}
+.collectionArray{
+    @apply flex gap-3 justify-between
+}
+.collects{
+    @apply flex gap-3
+}
+.bigimages img{
+    @apply w-[270px]
+}
+.cloesgre{
+    @apply flex flex-col gap-2
+}
+.smallImges img{
+    @apply w-[85px]
+}
+.amazingGT h4{
+    @apply text-[1.25rem] mt-3 font-[600] text-black
+}
+.bottomGT{
+    @apply flex justify-between mt-2
+}
+.bottomGT div{
+    @apply flex gap-2 items-center
+}
+.bottomGT div p{
+    @apply text-[0.875rem] font-light
+}

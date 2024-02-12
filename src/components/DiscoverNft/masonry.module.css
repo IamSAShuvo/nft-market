@@ -1,0 +1,74 @@
+.DiscoverNFT{
+    @apply lg:px-[40px] 2xl:max-w-[1400px] 2xl:m-auto 2xl:px-0 pt-[60px] pb-[120px] xl:px-[120px];
+    background: rgba(217, 224, 236, 0.2);
+}
+.DiscoverNFT > h3{
+    @apply text-[2.125rem] mb-[2.5rem] xl:text-[2.125rem] font-custom font-normal text-black leading-tight;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .menu button {
+    margin: 0 5px;
+    padding: 8px 20px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(220, 220, 220, 0.20);
+    border-radius: 45px;
+  }
+  
+  .menu button:focus, .active {
+    outline: none;
+    @apply !bg-primary text-white
+  }
+  
+.myMasonryFrid {
+    display: flex;
+    margin-left: -20px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  .myMasonryriGdColumn {
+    padding-left: 20px; /* Adjust as needed */
+    background-clip: padding-box;
+  }
+  
+  .galleryItem {
+    @apply mb-5 bg-white p-2 rounded-[15px];
+  }
+  .galleryImg{
+    @apply w-full relative;
+  }
+  .galleryImg .userArray{
+    @apply absolute left-0 bottom-[-30px] flex;
+  }
+  .userArray div{
+    @apply w-[60px] h-[60px] first:ml-4 ml-[-20px] border-4 border-white rounded-full overflow-hidden;
+  }
+  .galleryItem h3{
+    @apply text-[1.12rem] font-semibold text-black mb-3 mt-10 ml-4;
+  }
+  .bidRate{
+    @apply flex justify-between pb-4 mb-2 px-5 border-b border-secondary
+  }
+  .bidRate p{
+    @apply flex gap-3 text-[#00AC4F] last:text-[#838383]
+  }
+  .bidRate p svg path{
+    @apply fill-[#00AC4F]
+  }
+  .time{
+    @apply flex justify-between px-5 items-center
+  }
+  .time p, .time a{
+    @apply text-primary
+  }
+  .time p{
+    @apply bg-secondary rounded-[45px] px-4 py-1.5
+  }
+  

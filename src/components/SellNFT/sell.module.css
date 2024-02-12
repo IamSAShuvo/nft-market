@@ -1,0 +1,26 @@
+.sellNFT{
+    @apply lg:px-[40px] 2xl:max-w-[1400px] 2xl:m-auto 2xl:px-0 py-[70px] flex gap-12 items-center justify-between xl:px-[120px];
+}
+
+.leftSellText h3{
+    @apply text-[2rem] w-[70%] 2xl:w-[46%] mb-3 font-custom font-normal text-black leading-tight;
+}
+.sellImg{
+    @apply relative
+}
+.absoluteClass{
+    @apply absolute right-[-20px] bottom-[-20px]
+}
+.leftSell{
+    @apply flex flex-col gap-12 w-[30%]
+}
+.leftSellText{
+    @apply w-[60%]
+}
+.leftSellText p{
+    @apply font-light text-[1.125rem] mb-4
+}
+
+.sellImgLast{
+    @apply pl-[60px]
+}

@@ -1,0 +1,20 @@
+.amazingBg{
+    background: rgba(217, 224, 236, 0.2);
+}
+.amazingNft{
+    @apply lg:px-[40px] 2xl:max-w-[1400px] 2xl:m-auto 2xl:px-0 py-[100px] xl:px-[120px] flex gap-7 xl:gap-[70px]; 
+    
+}
+.amazingNft h2{
+    @apply text-[20px] xl:text-[1.75rem] font-custom font-normal text-black leading-tight;
+}
+.amazingNFTChild{
+    @apply flex gap-5
+}
+.amazingNFTChild h3{
+    @apply text-[1.25rem] font-semibold text-black mb-1
+}
+.amazingNFTChild p{
+    @apply text-[0.875rem] font-light leading-6;
+    letter-spacing: 1px;
+}
